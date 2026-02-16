@@ -3,7 +3,7 @@ class GitWt < Formula
   homepage "https://github.com/ahmedelgabri/git-wt"
   url "https://github.com/ahmedelgabri/git-wt.git",
       branch: "main"
-  version "0.5.1"
+  version "0.6.0"
   license "MIT"
   head "https://github.com/ahmedelgabri/git-wt.git", branch: "main"
 
