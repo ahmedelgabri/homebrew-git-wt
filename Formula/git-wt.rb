@@ -1,30 +1,30 @@
 class GitWt < Formula
   desc "Git custom command that enhances Git's native worktree functionality"
   homepage "https://github.com/ahmedelgabri/git-wt"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/ahmedelgabri/git-wt/releases/download/v#{version}/git-wt-#{version}-darwin-amd64.tar.gz"
-      sha256 "8fe917b12f6af35487f8c2416b53836faa39ada0223ae8ff9869c8fbe5e760e0"
+      sha256 "f54bc304fa97f648faa674cd9cb8c983fca689943f06ab33101a7ed7307b1290"
     end
 
     on_arm do
       url "https://github.com/ahmedelgabri/git-wt/releases/download/v#{version}/git-wt-#{version}-darwin-arm64.tar.gz"
-      sha256 "0ea62fe45337cb52c63a6ba7c5664057a39ab215646e3ced482730263833cb3e"
+      sha256 "7062bd6db6e303b0a9b72a725c818695c5b065991d2ac1478d67f755a1971184"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ahmedelgabri/git-wt/releases/download/v#{version}/git-wt-#{version}-linux-amd64.tar.gz"
-      sha256 "bab4946b120db65d6b9dfb2f57c628e76ec5c0646f3cf47c46e38b13f15d4cc1"
+      sha256 "b46d7df6b6e993cb96d6a2b48b10ebab5c94c744d6d21f4ee4693cb6ad2b7bc3"
     end
 
     on_arm do
       url "https://github.com/ahmedelgabri/git-wt/releases/download/v#{version}/git-wt-#{version}-linux-arm64.tar.gz"
-      sha256 "a1355731af00bd002803ec9f1ad22b8a14a91130d25ae71a3b8e83925429592f"
+      sha256 "ebf2901123aeb92c21dcd1ecead335d6543e86e436b5447898fcdffa8b997fbf"
     end
   end
 
